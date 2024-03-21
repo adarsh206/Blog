@@ -17,13 +17,13 @@ const Navbar = () => {
       <Link to="/" className="text-purple-600 font-semibold hover:text-purple-500"> Home </Link>
     </li>
     <li className="px-2 md:px-4">
-      <a href="#" className="text-gray-500 font-semibold hover:text-purple-500"> About </a>
+      <a href="/about" className="text-gray-500 font-semibold hover:text-purple-500"> About </a>
     </li>
     <li className="px-2 md:px-4">
       <a href="#" className="text-gray-500 font-semibold hover:text-purple-500"> Press </a>
     </li>
     <li className="px-2 md:px-4">
-      <a href="#" className="text-gray-500 font-semibold hover:text-purple-500"> Contact </a>
+      <a href="/contact" className="text-gray-500 font-semibold hover:text-purple-500"> Contact </a>
     </li>
     <li className="px-2 md:px-4 hidden md:block">
       <a href="#" className="text-gray-500 font-semibold hover:text-purple-500"> Login </a>
